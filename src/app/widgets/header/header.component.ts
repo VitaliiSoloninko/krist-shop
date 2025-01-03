@@ -13,16 +13,20 @@ export class HeaderComponent {
 
   menuItems = [
     {
+      name: 'Home',
+      link: '',
+    },
+    {
       name: 'Shop',
       link: 'shop',
     },
     {
-      name: 'Product',
-      link: 'product',
+      name: 'Login',
+      link: 'login',
     },
     {
-      name: 'Auth',
-      link: 'auth',
+      name: 'Registration',
+      link: 'registration',
     },
     {
       name: 'Admin',
